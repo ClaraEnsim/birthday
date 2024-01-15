@@ -1,18 +1,24 @@
 body{
-    background-color: rgb(209, 39, 132);
+    background: linear-gradient(to top, #7cfc00, #fd3f92);
     text-align: center;
     color: aliceblue;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
 
 #title{
     border: 5px solid rgb(235, 229, 232);
     border-radius: 10%;
+    border-width: 10px;
     align-items: center;
     margin-bottom: 30px;
+    border-color: #e72378;
 }
 
 header{
     font-size: 40px;
+    color: #7cfc00;
 }
 
 h1{
@@ -22,8 +28,10 @@ h1{
 #adress{
     border: 5px solid rgb(235, 229, 232);
     border-radius: 10%;
+    border-width: 10px;
     align-items: center;
     margin-bottom: 30px;
+    border-color:#bb7349;
 }
 
 #ExplainParty{
@@ -40,6 +48,25 @@ h1{
 form{
     border: 5px solid rgb(235, 229, 232);
     border-radius: 10%;
+    border-width: 10px;
     align-items: center;
     margin-bottom: 30px;
+    border-color: #7cfc00;
+}
+
+h4{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+#party{
+    color:#7cfc00;
+}
+
+#lieu{
+    color: #bb7349;
+}
+
+#envoyer{
+    color: #4f7e20;
 }
