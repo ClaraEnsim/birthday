@@ -26,24 +26,15 @@
         <button onclick="adressToParty()">clique ici pour connaître l'adresse</button>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <form method="post" action="register.php">
+        <h4>Formulaire</h12></br>
+        <input type="text" id="name" name="nom" placeholder="Nom"/></br>
+        <input type="number" id="number" name="nombre" min="1" max="10"/></br>
+        <input type="submit" name="submit" value="Envoyer"></br>
+    </form>
+</br>
+    <?php include "count_guests.php" ?>
+</br>
     <script src="birthday.js"></script>
 </body>
 </html>

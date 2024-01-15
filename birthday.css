@@ -28,4 +28,18 @@ h1{
 
 #ExplainParty{
     display: none;
+    border: 5px solid rgb(235, 229, 232);
+    align-items: center;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+form{
+    border: 5px solid rgb(235, 229, 232);
+    border-radius: 10%;
+    align-items: center;
+    margin-bottom: 30px;
 }
